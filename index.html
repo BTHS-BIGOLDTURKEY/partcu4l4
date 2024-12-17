@@ -15,7 +15,7 @@
     </body>
     <script>
         async function getData() {
-            const response = await fetch("graph (2).csv");
+            const response = await fetch("graph.csv");
             const data = await response.text();
             const rows = data.split("\n").slice(1);
 
